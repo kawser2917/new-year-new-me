@@ -127,18 +127,74 @@ header {
     background: url("../images/watch.png");
 
 }
+
 .mindset-container {
     border-radius: 8px;
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
 }
-.mindset-content{
+
+.mindset-content {
     padding: 61px;
 }
-.mindset-content button{
+
+.mindset-content button {
     margin-top: 24px;
     padding: 21px 36px;
     border-radius: 10px;
 }
-.mindset-content .section-title{
+
+.mindset-content .section-title {
     color: #fff;
+}
+
+/* Footer */
+footer {
+    color: #fff;
+    display: flex;
+    gap: 300px;
+    background-color: #151414;
+    padding: 130px 230px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-description {
+    color: #FFF;
+    margin-top: 16px;
+}
+
+.email,
+.phone {
+    margin-top: 16px;
+}
+
+.phone {
+    margin-bottom: 16px;
+}
+
+.footer-content a {
+    margin-right: 8px;
+}
+
+.subscribe-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+form input[type="email"]{
+    padding: 21px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background-color: #151414;
+}
+form input[type="submit"]{
+    margin-top: 16px;
+    padding: 20px 36px;
+    border-radius: 16px;
+    color: #F15B22;
+    font-size: 20px;
 }
