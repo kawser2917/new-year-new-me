@@ -43,3 +43,46 @@ header {
     color: #fff;
     font-size: 20px;
 }
+
+/* Failure section */
+.failure-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.failure-container {
+    display: flex;
+    gap: 120px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.failure-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failure-description {
+    margin-top: 24px;
+    color: #444343;
+    font-size: 16px;
+}
+.failure-content ul{
+    list-style: none;
+    margin-top: 16px;
+}
+.failure-content ul li{
+    margin-top: 8px;
+}
+.failure-content ul li::before{
+    content: "✔️";
+    margin-right: 9px;
+}
