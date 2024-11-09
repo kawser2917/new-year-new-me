@@ -75,14 +75,70 @@ header {
     color: #444343;
     font-size: 16px;
 }
-.failure-content ul{
+
+.failure-content ul {
     list-style: none;
     margin-top: 16px;
 }
-.failure-content ul li{
+
+.failure-content ul li {
     margin-top: 8px;
 }
-.failure-content ul li::before{
+
+.failure-content ul li::before {
     content: "✔️";
     margin-right: 9px;
+}
+
+/* My plans section */
+.my-plans {
+    margin-top: 200px;
+}
+
+.my-plans .section-title {
+    text-align: center;
+}
+
+.my-plans-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.my-plans-heading {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.my-plans-para {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.mindset {
+    margin: 130px auto;
+    width: 1140px;
+    height: 300px;
+    background: url("../images/watch.png");
+
+}
+.mindset-container {
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+}
+.mindset-content{
+    padding: 61px;
+}
+.mindset-content button{
+    margin-top: 24px;
+    padding: 21px 36px;
+    border-radius: 10px;
+}
+.mindset-content .section-title{
+    color: #fff;
 }
